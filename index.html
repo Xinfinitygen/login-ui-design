@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- <link rel="stylesheet" href="https://cloudflare.com" /> -->
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Left Section -->
+        <section class="left">
+
+            <img class="logo-image" src="./assets/images/Logo.png" alt="Logo Image">
+
+            <h1>For Individuals</h1>
+
+            <p>
+                Start benefiting from the wellness experience. For companies
+                looking on increasing productivity, and improving organization
+                wellness.
+            </p>
+
+        </section>
+
+        <!-- Right Section -->
+        <section class="right">
+
+            <div class="card">
+
+                <form action="#" method="post">
+
+                    <!-- Row 1 -->
+                    <div class="row">
+
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" placeholder="Tolu" required>
+                            <small class="error"></small>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" placeholder="" required>
+                            <small class="error"></small>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="row">
+
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+
+                            <select id="gender">
+                                <option selected disabled>Select here</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                            <small class="error"></small>
+
+
+                        </div>
+                        <!-- Date of Birth -->
+                        <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <div class="dob-container">
+                                <input type="text" id="dob" placeholder="Select here" required>
+                                <!-- Embedded SVG Calendar Icon acting as the trigger -->
+                                <a class="calendar-icon-chisel" data-toggle>
+                                    <svg xmlns="http://w3.org" width="22" height="22" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <!-- Angular Chisel-cut Main Calendar Frame -->
+                                        <path
+                                            d="M19 4h-2V2h-2v2H9V2H7v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z" />
+                                        <!-- Chisel-cut interior grid accents -->
+                                        <path
+                                            d="M7 11h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2zm-8 4h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <small class="error"></small>
+                        </div>
+
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="row">
+
+                        <div class="form-group">
+                            <label for="weight">Weight (KG)</label>
+
+                            <input type="number" id="weight" placeholder="Enter Weight" required>
+                            <small class="error"></small>
+
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="height">Height (CM)</label>
+
+                            <input type="number" id="height" placeholder="Enter height here..." required>
+                            <small class="error"></small>
+
+
+                        </div>
+
+                    </div>
+
+                    <!-- Activity -->
+                    <div class="form-group">
+
+                        <label for="activity">Activity Level</label>
+
+                        <select id="activity">
+                            <option selected disabled>Select here</option>
+                            <option>Sedentary</option>
+                            <option>Lightly Active</option>
+                            <option>Moderately Active</option>
+                            <option>Very Active</option>
+                            <option>Extremely Active</option>
+                        </select>
+                        <small class="error"></small>
+
+
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group">
+
+                        <label for="password">Password</label>
+
+                        <input type="password" id="password" placeholder="Enter Password" required>
+                        <small class="error"></small>
+
+
+                    </div>
+
+                    <!-- Button -->
+
+                    <button class="register-btn" type="submit" id="register-btn">
+
+                        Register
+
+                    </button>
+
+                    <!-- Terms -->
+
+                    <p class="terms">
+
+                        By clicking Register, you agree to our
+
+                        <a href="#">Terms of Use</a>
+
+                        and our
+
+                        <a href="#">Privacy Policy</a>.
+
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
