@@ -21,12 +21,12 @@ A responsive sign-up form built with **HTML, CSS, and JavaScript**. This project
 
 ## Live Demo
 
-Add your deployed project link here.
+https://xinfinitygen.github.io/login-ui-design/
 
 ## Screenshot
 
-Add a screenshot of your project here.
 
+![alt text](615387e9-c703-464b-9bc7-63e4e2d194f1.png)
 ## Getting Started
 
 1. Clone the repository
