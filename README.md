@@ -25,8 +25,8 @@ https://xinfinitygen.github.io/login-ui-design/
 
 ## Screenshot
 
+![alt text](login-ui-design.png)
 
-![alt text](615387e9-c703-464b-9bc7-63e4e2d194f1.png)
 ## Getting Started
 
 1. Clone the repository
